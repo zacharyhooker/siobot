@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"abilit",
+				"abilityscore"
+			],
+			[
+				"pr",
+				"preamble"
+			],
+			[
+				"MIB",
+				"_MIB_TCPROW"
+			],
+			[
+				"_MIB",
+				"_MIB_TCPROW"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source.go",
+			"settings":
+			{
+				"buffer_size": 156,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "package main"
+			}
+		},
+		{
+			"file": "siobot.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/null/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 14823,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/PyEnv364WSL.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "go",
+		"selected_items":
+		[
+			[
+				"go",
+				"GoSublime: Restart Margo"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/projects/siobot"
+	],
+	"file_history":
+	[
+		"/E/projects/siobot/test.json",
+		"/C/Users/null/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/C/Users/null/AppData/Roaming/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/E/projects/siobot/package-lock.json",
+		"/E/projects/siobot/source.js",
+		"/E/projects/siobot/siobot.sublime-project",
+		"/E/projects/siobot/package.json",
+		"/E/projects/siobot/test.js",
+		"/E/projects/playground/blockzalgo.py",
+		"/E/projects/playground/roller.py",
+		"/E/projects/playground/poe.py",
+		"/E/projects/playground/voterlookup/votebuilder.py",
+		"/E/projects/playground/parse-har.py",
+		"/E/projects/playground/modem.py",
+		"/E/projects/playground/mouseshown.py",
+		"/T/torrents/Application/Adobe Premiere Pro CC 2017 v11.0.1 Incl Crack/welcome.tx",
+		"/W/Users/null/Desktop/AHK/WindowSpy.ahk",
+		"/E/projects/playground/votebuilder/votebuilder.py",
+		"/W/Users/null/Documents/My Games/Path of Exile/neversink-slick-regular.filter",
+		"/W/Users/null/Documents/My Games/Path of Exile/neversink-slick-semi.filter",
+		"/E/projects/playground/votebuilder/out.txt",
+		"/E/projects/playground/voterlookup/voterlookup.py",
+		"/E/projects/playground/emaillookup.py",
+		"/E/projects/playground/imdb-nudity.py",
+		"/E/projects/playground/emails.txt",
+		"/S/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg",
+		"/E/projects/playground/sounds/sounds.py",
+		"/E/projects/playground/voterlookup/config.json",
+		"/E/projects/playground/voterlookup/state.py",
+		"/E/projects/playground/googleusercontent.py",
+		"/E/projects/playground/playground.py",
+		"/E/projects/Audio/a-date.acd",
+		"/E/projects/fantasygrounded/run.py",
+		"/C/Users/null/AppData/Local/Temp/get_video_info",
+		"/T/torrents/Application/Native Instruments Maschine 2 v2.4.0 UNLOCKED WiN-d33p57a7u5/iNFO.nfo",
+		"/W/Users/null/Desktop/x/AudioUTOPiA.nfo",
+		"/E/projects/playground/storage.json",
+		"/W/Users/null/Downloads/client_secret_1034553837006-0rqqjo2sp7lfvi0n9t906iv79grgs8ho.apps.googleusercontent.com.json",
+		"/W/Users/null/Downloads/client_secret_1034553837006-0rqqjo2sp7lfvi0n9t906iv79grgs8ho.apps.googleusercontent.com (1).json",
+		"/E/projects/playground/client_secret.json",
+		"/W/Users/null/Downloads/client_secret_831823569977-ldkjed74nn4ub1fk9b1cq0jfu0hfhc6e.apps.googleusercontent.com.json",
+		"/E/projects/winscript/keys.py",
+		"/E/projects/winscript/debugy/__init__.py",
+		"/E/projects/winscript/debugy/defines.py",
+		"/E/projects/winscript/debugy/tcpfuncs.py",
+		"/E/projects/winscript/debugy/base.py",
+		"/E/projects/winscript/run.py",
+		"/E/projects/winscript/debugy/windows_h.py",
+		"/E/projects/DFPy/run.py",
+		"/E/projects/winscript/menu.txt",
+		"/E/projects/winscript/rpm.py",
+		"/E/projects/winscript/logoutahk.txt",
+		"/E/projects/winscript/wincontrols/base.py",
+		"/E/projects/winscript/wincontrols/keys.py",
+		"/E/projects/winscript/wincontrols/__init__.py",
+		"/E/projects/winscript/winscript.sublime-project",
+		"/C/Users/null/AppData/Roaming/Sublime Text 3/Packages/User/PythonCMD.sublime-build",
+		"/E/projects/winscript/winscript.sublime-workspace",
+		"/E/projects/winscript/directkeys.py",
+		"/C/Users/null/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-build"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"E:\\projects\\playground"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"priority",
+			" ",
+			"main",
+			"req.",
+			",",
+			":",
+			"find",
+			"session",
+			"req",
+			"showmouse",
+			"echo",
+			"budi",
+			"voice",
+			"ping",
+			"snd_use_hrtf",
+			"result",
+			"req.",
+			"int",
+			",",
+			"'",
+			",",
+			"'",
+			",",
+			"'",
+			"print",
+			"sel",
+			"'",
+			"webm",
+			"mp4",
+			"mp3",
+			"quality",
+			"stream",
+			" ,",
+			"media",
+			"creds",
+			"flow",
+			"Http",
+			"usercontent",
+			"content",
+			"google",
+			"codec",
+			"docs",
+			"\\\\n",
+			"\\n",
+			"\\\\n",
+			"iphlpapi",
+			"win32",
+			"os",
+			"\"",
+			":",
+			"ptr",
+			"psapi",
+			"kernel32\n",
+			"psapi",
+			"MIB_TCPROW_OWNER_ID",
+			"TCP_TABLE_OWNER_PID_ALL",
+			"formatip",
+			"ERROR_INSUFFICIENT_BUFFER",
+			"so",
+			"TcpTable",
+			"socket_info",
+			"MIB_UDPROW",
+			"socket_info",
+			"poePID",
+			"TcpTable",
+			"logout",
+			"directMouse",
+			"mouse_lb_press",
+			"folder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"sess.",
+			"session",
+			"",
+			"\"",
+			"\\n",
+			"",
+			"=",
+			"row"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package main",
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "siobot.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/null/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2408,
+								2408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://E:\\projects\\siobot":
+	{
+		"height": 126.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 126.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 188.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Erlang/Erlang.sublime-build",
+	"project": "siobot.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
