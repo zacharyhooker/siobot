@@ -3,14 +3,22 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/graarh/golang-socketio"
-	"github.com/graarh/golang-socketio/transport"
+	"github.com/zhouhui8915/go-socket.io-client"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"time"
 )
 
+type JoinChannelMessage struct {
+	Name string `json:"name"`
+}
+type LoginMessage struct {
+	Name     string `json:"name"`
+	Password string `json:"pw"`
+}
+type chatMessage struct {
+	Text string `json:"msg"`
+}
 type Message struct {
 	Id      int    `json:"id"`
 	Channel string `json:"channel"`
@@ -18,43 +26,47 @@ type Message struct {
 }
 
 func main() {
-	url, err := cytube("fullmoviesonyoutube")
-	if err != nil {
-	}
-	c, err := gosocketio.Dial(url, transport.GetDefaultWebsocketTransport())
-	if err != nil {
-		log.Fatal(err)
+	channel := "fullmoviesonyoutube"
+	url, _ := cytubeUrl(channel)
+
+	opts := &socketio_client.Options{
+		Transport: "websocket",
+		Query:     make(map[string]string),
 	}
 
-	err = c.On("/message", func(h *gosocketio.Channel, args Message) {
-		log.Println("--- Got chat message: ", args)
+	client, err := socketio_client.NewClient(url, opts)
+	if err != nil {
+		log.Printf("NewClient error:%v\n", err)
+		return
+	}
+	client.On("chatMsg", func() {
+		log.Printf("message")
 	})
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	err = c.On(gosocketio.OnDisconnection, func(h *gosocketio.Channel) {
-		log.Fatal("Disconnected")
+	client.On("disconnection", func() {
+		log.Printf("on disconnect\n")
 	})
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	err = c.On(gosocketio.OnConnection, func(h *gosocketio.Channel) {
-		log.Println("Connected")
+	client.On("event", func(msg string) {
+		log.Printf("on event\n", msg)
 	})
-	if err != nil {
-		log.Fatal(err)
+	client.On("chatMsg", func(msg string) {
+		log.Printf("on message:%v\n", msg)
+	})
+	var joinChannel JoinChannelMessage
+	var login LoginMessage
+	var chat chatMessage
+	chat.Text = "test"
+	login.Name = "pookeytesting1"
+	joinChannel.Name = channel
+	//client.Emit("initChannelCallbacks")
+	client.Emit("joinChannel", joinChannel)
+	client.Emit("login", login)
+
+	for {
+		client.Emit("chatMsg", chat)
 	}
-
-	time.Sleep(1 * time.Second)
-	time.Sleep(60 * time.Second)
-	c.Close()
-
-	log.Println(" [x] Complete")
 }
 
-func cytube(channel string) (string, error) {
+func cytubeUrl(channel string) (string, error) {
 	data := struct {
 		Items []struct {
 			Url    string `json:"url"`
@@ -64,7 +76,7 @@ func cytube(channel string) (string, error) {
 	url := fmt.Sprintf("https://cytu.be/socketconfig/%s.json", channel)
 	getJson(url, &data)
 	for _, server := range data.Items {
-		if server.Secure {
+		if !server.Secure {
 			return server.Url, nil
 		}
 	}

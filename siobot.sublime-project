@@ -4,5 +4,18 @@
 		{
 			"path": "."
 		}
-	]
+	],
+    "build_systems":
+    [
+        {
+            "name": "Go Run",
+            "cmd": "go run source.go",
+            "windows":
+            {
+                "cmd": ["start", "cmd" ,"/k", "go", "run","source.go"],
+                "shell": true
+            }
+        }
+
+    ]
 }
